@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:weightSum="8"
+    android:orientation="vertical"
+    tools:context="com.example.creditcardhelper.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Enter Card Balance ($)"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:layout_weight="1"
+            android:id="@+id/textView1" />
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:layout_height="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:text="Enter Yearly Interest Rate (%)"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:layout_weight="1"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/text2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:layout_height="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Enter Minimum Payment ($)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:layout_weight="1"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:id="@+id/text3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:layout_height="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Final Card Balance ($)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:id="@+id/text4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:layout_height="35dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Months Remaining"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:layout_weight="1"
+            android:id="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/text5"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:layout_height="35dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Interest Paid Will Be ($)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:layout_weight="1"
+            android:id="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/text6"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#fff"
+            android:layout_height="35dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="COMPUTE"
+        android:id="@+id/button7"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CLEAR"
+        android:id="@+id/button8"
+        android:textSize="24sp" />
+
+
+
+</LinearLayout>
